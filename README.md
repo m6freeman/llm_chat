@@ -1,11 +1,11 @@
 
-# Python Project Template
+# LLM Chat
 
-A simple, /src/ structured, declaritively set up, template for Python Projects.
+Watch LLMs converse!
 
-### HOW TO USE THIS TEMPLATE
+Using Ollama, strike up a coversation between various LLMs. 
 
-> **DO NOT FORK**  **[Use the template](https://github.com/m6freeman/python_project_template/generate)** 
+Let's see what they *really* 'think'!
 
 ### What is included on this template?
 

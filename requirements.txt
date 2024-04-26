@@ -7,3 +7,4 @@ pyproject_hooks
 pytest
 pytest-cov
 result
+requests
