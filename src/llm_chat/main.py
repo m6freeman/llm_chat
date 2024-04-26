@@ -14,6 +14,7 @@ def main():
     url = "http://localhost:11434/api/generate"
     data = {"model": "llama3", "prompt": initial_prompt}
     try:
+        print("prompt:")
         print(initial_prompt)
         print("###########################################")
         response = requests.post(
@@ -23,7 +24,7 @@ def main():
         )
         response.raise_for_status()
         json_response = response.text
-        initial_response = parse_message(json_response).unwrap_or_raise(Exception)
+        initial_response = parse_message(json_response).unwrap_or_raise(ParseException)
         print("llama3:")
         print(initial_response)
         print("###########################################")
