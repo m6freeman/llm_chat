@@ -1,0 +1,9 @@
+black
+build
+coverage
+mypy
+mypy-extensions
+pyproject_hooks
+pytest
+pytest-cov
+result
