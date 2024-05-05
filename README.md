@@ -7,6 +7,8 @@ Using Ollama, strike up a coversation between various LLMs.
 
 Let's see what they *really* 'think'!
 
+> **_TODO:_**  Utilize the ollama python module I didn't realize already existed.
+
 ### What is included on this template?
 
 ```bash
